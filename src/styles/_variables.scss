@@ -1,0 +1,82 @@
+:root {
+  // --primary-font: 'Scto Grotesk A', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+  //   Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  // colors
+  --black: #000;
+  --black70: #484848;
+  --black50: #808080;
+  --black10: #d9d9d9;
+
+  --white: #fff;
+
+  --background-grey: #f7f5f5;
+
+  --orange: #f97d38;
+  --red: #f26565;
+  --yellow: #f1b824;
+  --lime-green: #9fd42d;
+  --green: #0acd87;
+  --cyan: #00c7d3;
+  --blue: #4b5be8;
+  --purple: #8d42a4;
+  --pink: #ee75b6;
+
+  // Default colour vars used for theming
+  --text-color: var(--black);
+  --link-color: var(--pink);
+  --heading-color: var(--black);
+  --grid-background: transparent;
+  --border-color: var(--black50);
+
+  // Header
+  --header-height: 72px;
+  --mobile-header-height: 52px;
+
+  // Grid
+  --row-padding: 0 0;
+  --gutter: 20px;
+  --page-width: calc(1920px + var(--gutter));
+
+  // Icons
+  --icon-width: 24px;
+  --icon-height: 24px;
+
+  // Cards
+  --card-background: var(--white);
+  --card-padding: 10px;
+  --card-border-radius: 8px;
+  --card-color: var(--text-color);
+
+  // Buttons
+  --hover-brightness: 1.2;
+  --button-padding: 3px 10px;
+  --button-radius: 8px;
+
+  --button-primary-background: var(--primary);
+  --button-primary-color: var(--white);
+  --button-primary-background-hover: var(--primary);
+  --button-primary-color-hover: var(--white);
+  --button-primary-background-active: var(--primary);
+  --button-primary-color-active: var(--white);
+
+  --button-secondary-background: var(--secondary);
+  --button-secondary-color: var(--black);
+  --button-secondary-background-hover: var(--secondary);
+  --button-secondary-color-hover: var(--black);
+  --button-secondary-background-active: var(--secondary);
+  --button-secondary-color-active: var(--black);
+
+  // spacings
+  --space-xxl: 300px;
+  --space-xl: 200px;
+  --space-l: 100px;
+  --space-m: 50px;
+  --space-s: 25px;
+  --space-xs: 10px;
+
+  --space-m-xl: 100px;
+  --space-m-l: 50px;
+  --space-m-m: 25px;
+  --space-m-s: 10px;
+}
